@@ -1,0 +1,36 @@
+h1 { 
+    font-size: 25px;
+}
+input { 
+    margin-top: 25px;
+}
+
+.bookslist {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    flex-basis: 25%;
+}
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.book {
+    width: 25%;
+}
+span {
+    display: block;
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(1.1) ;
+}
+a {
+    display: block;
+    text-align: center;
+}
